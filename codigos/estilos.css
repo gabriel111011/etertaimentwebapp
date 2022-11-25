@@ -1,0 +1,289 @@
+:root {
+    --tipografia: var(--tipografia) --colortipografia:var(--tipografia) --colordebackgraund:var(--tipografia) --colordecalltoaction:var(--tipografia)
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+
+header {
+
+    margin-left: 2rem;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    padding-left: 1px;
+}
+
+.header-nav--iconos {
+    width: 6%;
+}
+
+.header-nav--iconos {
+
+    background-color: #131415;
+    border-radius: 1rem;
+    width: 6%;
+    height: 32rem;
+    position: fixed;
+}
+
+
+
+.listas-iconos {
+    list-style: none;
+}
+.listas-iconos #icono1{
+    margin-left: -12px;
+}
+.listas-iconos #icono1 img{
+    width: 2.7rem;
+}
+.container-iconos2{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    
+}
+.container-iconos2 .menu-desplegable{
+    position: relative;
+}
+.menu-desplegable ul{
+    position: absolute;
+    color: aqua;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+    list-style: none;
+    margin-left: -2rem;
+    border-radius: 5px;
+    height: 4rem;
+    width: 7rem;
+    background-color: white;
+
+}
+.menu-desplegable ul li{
+    margin-top: 5px;
+  padding-bottom: 5px;  
+   margin-left: -1.5rem;
+}
+
+.menu-desplegable ul li a{
+    text-decoration: none;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 5px;
+    font-weight: bolder;
+}
+
+.container-iconos2 :hover ul{
+visibility: visible;
+opacity: 1;
+}
+.container-iconos2 #iconos2 img{
+    width: 2rem;
+    margin-left: -10px;
+    margin-top: 15px;
+}
+.menu-desplegable{
+    padding-top: 60px;
+    margin-left: -4px;
+}
+main {
+    position: absolute;
+    margin-left: 12rem;
+    top: 80px;
+}
+.main-buscar img{
+    width: 2rem;
+}
+.main-buscar input {
+
+    width: 70rem;
+    height: 2.4rem;
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+    font-weight: i;
+    padding-left: 25px;
+    background-color: black;
+    border-left-width: 0px;
+    border-left-style: solid;
+    border-top-width: 0px;
+    border-top-style: solid;
+    border-right-width: 0px;
+    border-right-style: solid;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.trendig-cards h2 {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu-scroll-horinzontal {
+    display: block ruby;
+    height: 20rem;
+    width: 80rem;
+    overflow: auto;
+    padding: 8px;
+}
+
+.menu-scroll-horinzontal article {
+    width: 20rem;
+    height: 20rem;
+    
+    margin-right: 50px;
+    border-radius: 10px;
+}
+.menu-scroll-horinzontal article img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 13px;
+}
+.cards-recomendados h2 {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(4,20rem);
+}
+.container-grid article {
+    height: 12rem;
+    margin-bottom: 15px;
+    margin-right: 19px;
+    border-radius: 15px;
+}
+.container-grid article img{
+    width: 18rem;
+    height: 12rem;
+    border-radius: 15px;
+    image-rendering: auto;
+
+}
+.formulario-ingresar{
+    width: 22rem;
+    height: 28rem;
+    background-color: #131415;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    border-radius: 8px;
+    margin-left: 30rem;
+}
+.formulario-ingresar h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 3rem;
+}
+.formulario--input-correo h3{
+color: aliceblue;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-bottom: 25px;
+}
+.formulario--input-correo input{
+    width: 19rem;
+    height: 2.3rem;
+    background-color: #131415;
+    border-left-width: 0px;
+    border-left-style: solid;
+    border-top-width: 0px;
+    border-top-style: solid;
+    border-right-width: 0px;
+    border-right-style: solid;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 15px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.formulario--input-contraseña  h3{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+}
+.formulario--input-contraseña input{
+    width: 19rem;
+    height: 2.3rem;
+    background-color: #131415;
+    border-left-width: 0px;
+    border-left-style: solid;
+    border-top-width: 0px;
+    border-top-style: solid;
+    border-right-width: 0px;
+    border-right-style: solid;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 15px;
+    font-size: 16px;
+    margin-bottom: 3rem;
+}
+.formulario--button-enviar{
+    width: 6rem;
+    height: 2rem;
+    color: #000;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.formulario-registro{
+    width: 22rem;
+    height: 35rem;
+    background-color: #131415;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    border-radius: 8px;
+    margin-left: 30rem;
+}
+.formulario-registro h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 3rem;
+}
+.formulario--input-fullname h3{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 25px;
+}
+.formulario--input-fullname input{
+    width: 19rem;
+    height: 2.3rem;
+    background-color: #131415;
+    border-left-width: 0px;
+    border-left-style: solid;
+    border-top-width: 0px;
+    border-top-style: solid;
+    border-right-width: 0px;
+    border-right-style: solid;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 15px;
+    font-size: 16px;
+    margin-bottom: 1rem;   
+}
+.formulario--input-email h3{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 25px;  
+}
+.formulario--input-email input{
+    width: 19rem;
+    height: 2.3rem;
+    background-color: #131415;
+    border-left-width: 0px;
+    border-left-style: solid;
+    border-top-width: 0px;
+    border-top-style: solid;
+    border-right-width: 0px;
+    border-right-style: solid;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 15px;
+    font-size: 16px;
+    margin-bottom: 1rem;   
+}
+
+footer {
+    margin-left: 14rem;
+}

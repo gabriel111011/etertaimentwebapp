@@ -1,0 +1,14 @@
+{
+  "name": "entertaimentwebapp",
+  "version": "1.0.0",
+  "description": "mi primera pagina con node js",
+  "main": "servidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gabriel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
